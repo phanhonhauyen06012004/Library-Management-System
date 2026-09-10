@@ -18,7 +18,7 @@ export default function LibMemberDetail() {
     const fetchData = async () => {
       try {
         // 1. Lấy thông tin cá nhân của bạn đọc (Giả sử bạn có API này để Edit)
-        const memberRes = await fetch(`${U.users || '[https://library-backend-api-3xcu.onrender.com](https://library-backend-api-3xcu.onrender.com)/api/members'}/${id}`);
+        const memberRes = await fetch(`${U.users || 'https://library-backend-api-3xcu.onrender.com/api/members'}/${id}`);
         if (memberRes.ok) setMember(await memberRes.json());
 
         // 2. Lấy lịch sử mượn sách của riêng người này

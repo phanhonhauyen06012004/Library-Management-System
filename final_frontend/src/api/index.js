@@ -4,7 +4,7 @@
 // ---------------------------------------------------------------------------
 
 // Object chứa chuỗi base API; import.meta.env là biến do Vite inject lúc build
-export const CONFIG = { API_BASE: import.meta.env.VITE_API_BASE || '[https://library-backend-api-3xcu.onrender.com](https://library-backend-api-3xcu.onrender.com)/api' };
+export const CONFIG = { API_BASE: import.meta.env.VITE_API_BASE || 'https://library-backend-api-3xcu.onrender.com/api' };
 
 // Hàm nối base + đường con; p có hoặc không có dấu / đầu đều được
 export function apiUrl(p) {
