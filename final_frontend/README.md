@@ -18,7 +18,7 @@ npm install
 npm run dev
 ```
 
-Backend mặc định: `http://localhost:3000`. Đổi qua biến `VITE_API_BASE` trong `.env` (xem `.env.example`).
+Backend mặc định: `[https://library-backend-api-3xcu.onrender.com](https://library-backend-api-3xcu.onrender.com)`. Đổi qua biến `VITE_API_BASE` trong `.env` (xem `.env.example`).
 
 ## Lint
 
